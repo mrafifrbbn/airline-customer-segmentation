@@ -2,6 +2,9 @@
 
 Hello! This is my third data science project. After playing around with supervised learning in my previous projects, I decide to explore more on the topic of unsupervised learning, particularly clustering. Here, I use aviation dataset to create a customer segmentation, analyze the customers profile in the clusters obtained, and give business recommendations accordingly. Although I am not an expert in the aviation industry, this dataset is still very interesting and fun to play around. Enjoy!
 
+# Files
+This repo contains this README, a python notebook called Airline Customer Segmentation.ipynb, a slides in pdf format to highlight the most important aspects of this project called 'Airline Customer Segmentation - slides.pdf', and the dataset flight.csv is in the data directory.
+
 # Data
 I use the Airline Customer Segmentation dataset from [Kaggle](https://www.kaggle.com/competitions/sa-customer-segmentation). It is actually still unclear for me where this dataset is originally from, but I notice that it has been circulating around the internet since at least 4 years ago. The content of this dataset is as follows:
 
