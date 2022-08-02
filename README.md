@@ -45,4 +45,4 @@ This project requires the standard `numpy`, `pandas`, `matplotlib`, `seaborn`, a
 
 # Results
 
-I find that k=5 gives the best customer segmentation based on the silhouette score. I also try using k=4 and k=6 to see what information I gain/loose. With 4 clusters only, I find that the results are not optimal as I loose the information on the potential high-value customers. However, using 6 clusters, there is an additional segment of customers with very high typical value of `C`, suggesting that these customers often use the high-class seats during flights. This possibility is interesting, and so deserves to be looked in more details in the future.
+I find that k=6 gives the best segmentation based on the elbow method and the silhouette score. I also try using k=5 and k=7 to see what information I gain/lose. With 5 clusters only, we lose the group of potential VIP members, and so it is not optimal to use. In other hand, using 7 clusters adds a cluster with mostly redundant characteristics, and so it is not worth the additional effort.
